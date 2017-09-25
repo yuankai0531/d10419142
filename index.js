@@ -1,3 +1,5 @@
+@EnableAutoConfiguration( exclude = { ErrorMvcAutoConfiguration.class })
+
 var linebot = require('linebot');
 var express = require('express');
 
