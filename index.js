@@ -9,7 +9,7 @@ var bot = linebot({
   channelAccessToken: nPDe+2zQMdWtVNqN3zav2KU+gvGYsO5mKIAzn1H/hvUVVg+49ANlSXz5xsd3yb11/ojYV884AJ5agsNHvVAFjaII8mArxUYT2Du/WlqE4IV3YEvbOUPoXnpPJ+6BdrOJuDPVdesI4teE81gfAzv8vwdB04t89/1O/w1cDnyilFU=
 });
 bot.on('message', function(event) {
-  console.log(event); //把收到訊息的 event 印出來看看
+  console.log(event+"cool"); //把收到訊息的 event 印出來看看
 });
 
 const app = express();
